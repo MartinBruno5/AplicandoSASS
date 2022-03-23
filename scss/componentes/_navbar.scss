@@ -1,0 +1,41 @@
+@import "../base/extends";
+@import "../base/variables";
+@import "../base/listas";
+
+header {
+    background-color: $color-black;
+    padding: 4rem 10rem 2rem 10rem;
+    nav {
+        @extend %row-between;
+        div{
+            ul{
+                @extend %row-center;
+                gap: 1rem;
+                li{
+                    list-style: none;
+                    display: flex;
+                    justify-items: center;
+                }
+            }
+        }
+    }
+}
+
+.text-link{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+
+    text-decoration: none;
+}
+.text-link:hover{
+    color: nth($color-neutro, 3);
+}

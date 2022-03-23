@@ -1,0 +1,11 @@
+@import "./base/extends";
+@import "./base/listas";
+@import "./base/variables";
+@import "./componentes/navbar";
+@import "./componentes/footer";
+@import "./componentes/index";
+
+*{
+    padding: 0;
+    margin: 0;
+}

@@ -1,0 +1,67 @@
+@import "../base/extends";
+@import "../base/variables";
+@import "../base/listas";
+
+footer{
+    background-color: nth($color-black, 1);
+    padding: 3rem 10rem 4rem 10rem;
+    div {
+        @extend %row-between;
+        div {
+            a {
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 20px;
+
+                display: flex;
+
+                color: #FFFFFF;
+
+                text-decoration: none;
+
+                padding: 0.2rem 0;
+            }
+            a:hover{
+                color: nth($color-neutro, 3);
+            }
+            ul li {
+                list-style: none;
+                padding: 0 0.5rem 0 0.5rem;
+            }
+            p {
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 20px;
+                display: flex;
+                align-items: center;
+
+                color: #FFFFFF;
+            }
+        }
+
+    }
+}
+
+.display-categorias{
+    @extend %column-start;
+}
+
+.display-footer{
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+}
+
+.display-redes{
+    display: flex;
+    gap: 0.5rem;
+}
+
+.p-wrap{
+    display: flex;
+    flex-wrap: wrap;
+}
