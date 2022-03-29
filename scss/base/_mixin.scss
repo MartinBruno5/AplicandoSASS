@@ -1,0 +1,6 @@
+@import "./listas";
+
+@mixin faq ($color, $espacio) {
+    background-color: $color;
+    padding: $espacio;
+}

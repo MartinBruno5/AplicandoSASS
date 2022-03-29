@@ -812,6 +812,20 @@ aside {
   align-content: center;
 }
 
+/* USO DE MAP GET */
+aside {
+  background-color: #F2F2F2;
+}
+aside h2 {
+  font-size: 40px;
+}
+
+/* USO MIXIN */
+.bg-faq {
+  background-color: #f2f2f2;
+  padding: 4rem 10rem;
+}
+
 * {
   padding: 0;
   margin: 0;
