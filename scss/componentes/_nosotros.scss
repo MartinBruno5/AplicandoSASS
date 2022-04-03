@@ -1,0 +1,87 @@
+@import "../base/extends";
+@import "../base/variables";
+@import "../base/listas";
+@import "../base/maps";
+@import "../base/mixin";
+
+/* MAIN */
+
+.titulo-nosotros{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.nosotros-display{
+    @extend %row-center;
+    align-items: center;
+}
+
+.margen-div{
+    margin-bottom: 8rem;
+}
+
+.box-background2{
+    background-color: white;
+    border-radius: 1rem;
+}
+
+.text-black{
+    color: nth($color-black, 1);
+}
+
+.shadow-img{
+    @extend %shadow-1;
+}
+
+.background-box{
+    background-color: nth($color-black, 1);
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+.text-empezaahora{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;  
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.display-row{
+    display: flex;
+}
+
+.margin-8{
+    margin-bottom: 0.5rem;
+}
+
+.margin-24{
+    margin-bottom: 1.5rem;
+}
+
+.margin-right{
+    margin-right: 0.5rem;
+}
+
+.contratar-button{
+    font-family: 'Inter';
+    font-style: bold;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+    text-decoration: none;
+
+    color: #141A26;
+}

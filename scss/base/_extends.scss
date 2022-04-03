@@ -49,6 +49,16 @@
     color: #FFFFFF;
 }
 
+%headline-5{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+
+    color: #23262B;
+}
+
 %cuerpo-1{
     font-family: 'Inter';
     font-style: normal;
@@ -95,6 +105,11 @@ h4{
 }
 p {
     @extend %cuerpo-1;
+    margin-bottom: 0.5rem;
+}
+
+h5{
+    @extend %headline-5;
     margin-bottom: 0.5rem;
 }
 
@@ -167,7 +182,7 @@ p {
 /* SPACING */
 
 %padding-section{
-    padding: 8rem 10rem;
+    padding: 6rem 10rem;
 }
 
 section, main {

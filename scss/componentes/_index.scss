@@ -56,6 +56,10 @@ main {
     background-color: nth($color-neutro, 2);
 }
 
+.background-section-2{
+    background-color: white;
+}
+
 .margen-parrafo{
     @extend %margin-bottom-32;
 }
@@ -105,20 +109,5 @@ main {
     flex-direction: column;
     justify-content: center;
     align-content: center;
-}
-
-/* USO DE MAP GET */
-
-aside {
-    background-color: map-get($aside, bg-section);
-    h2 {
-        font-size: map-get($aside, tx-font);
-    }
-}
-
-/* USO MIXIN */
-
-.bg-faq{
-    @include faq(#f2f2f2, 4rem 10rem);
 }
 
