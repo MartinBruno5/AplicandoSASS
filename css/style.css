@@ -9,8 +9,8 @@ h1 {
   font-family: "Inter";
   font-style: normal;
   font-weight: 700;
-  font-size: 60px;
-  line-height: 73px;
+  font-size: 3.5rem;
+  line-height: 4.5rem;
   color: #212121;
 }
 
@@ -18,8 +18,8 @@ h2 {
   font-family: "Inter";
   font-style: normal;
   font-weight: 700;
-  font-size: 40px;
-  line-height: 48px;
+  font-size: 2.5rem;
+  line-height: 3rem;
   display: flex;
   align-items: center;
   color: #212121;
@@ -29,8 +29,8 @@ h3 {
   font-family: "Inter";
   font-style: normal;
   font-weight: 700;
-  font-size: 24px;
-  line-height: 32px;
+  font-size: 1.5rem;
+  line-height: 2rem;
   display: flex;
   align-items: center;
   color: #1B1F23;
@@ -40,8 +40,8 @@ h4 {
   font-family: "Inter";
   font-style: normal;
   font-weight: 700;
-  font-size: 24px;
-  line-height: 29px;
+  font-size: 1.5rem;
+  line-height: 2rem;
   color: #FFFFFF;
 }
 
@@ -49,8 +49,8 @@ h5 {
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
-  font-size: 20px;
-  line-height: 28px;
+  font-size: 1.25rem;
+  line-height: 1.7rem;
   color: #23262B;
 }
 
@@ -58,8 +58,8 @@ main div p, p {
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
-  font-size: 20px;
-  line-height: 28px;
+  font-size: 1.25rem;
+  line-height: 1.7rem;
   display: flex;
   align-items: center;
   color: #565656;
@@ -69,8 +69,8 @@ main div p, p {
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
+  font-size: 1rem;
+  line-height: 1.25rem;
   display: flex;
   align-items: center;
   color: #70798E;
@@ -131,7 +131,7 @@ h5 {
   align-content: center;
 }
 
-main div, .display-categorias {
+main div, .display-categorias2, .display-categorias {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -188,8 +188,8 @@ h1 {
   font-family: "Inter";
   font-style: normal;
   font-weight: 700;
-  font-size: 60px;
-  line-height: 73px;
+  font-size: 3.5rem;
+  line-height: 4.5rem;
   color: #212121;
 }
 
@@ -197,8 +197,8 @@ h2 {
   font-family: "Inter";
   font-style: normal;
   font-weight: 700;
-  font-size: 40px;
-  line-height: 48px;
+  font-size: 2.5rem;
+  line-height: 3rem;
   display: flex;
   align-items: center;
   color: #212121;
@@ -208,8 +208,8 @@ h3 {
   font-family: "Inter";
   font-style: normal;
   font-weight: 700;
-  font-size: 24px;
-  line-height: 32px;
+  font-size: 1.5rem;
+  line-height: 2rem;
   display: flex;
   align-items: center;
   color: #1B1F23;
@@ -219,8 +219,8 @@ h4 {
   font-family: "Inter";
   font-style: normal;
   font-weight: 700;
-  font-size: 24px;
-  line-height: 29px;
+  font-size: 1.5rem;
+  line-height: 2rem;
   color: #FFFFFF;
 }
 
@@ -228,8 +228,8 @@ h5 {
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
-  font-size: 20px;
-  line-height: 28px;
+  font-size: 1.25rem;
+  line-height: 1.7rem;
   color: #23262B;
 }
 
@@ -237,8 +237,8 @@ main div p, p {
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
-  font-size: 20px;
-  line-height: 28px;
+  font-size: 1.25rem;
+  line-height: 1.7rem;
   display: flex;
   align-items: center;
   color: #565656;
@@ -248,8 +248,8 @@ main div p, p {
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
+  font-size: 1rem;
+  line-height: 1.25rem;
   display: flex;
   align-items: center;
   color: #70798E;
@@ -310,7 +310,7 @@ h5 {
   align-content: center;
 }
 
-main div, .display-categorias {
+main div, .display-categorias2, .display-categorias {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -397,8 +397,8 @@ h1 {
   font-family: "Inter";
   font-style: normal;
   font-weight: 700;
-  font-size: 60px;
-  line-height: 73px;
+  font-size: 3.5rem;
+  line-height: 4.5rem;
   color: #212121;
 }
 
@@ -406,8 +406,8 @@ h2 {
   font-family: "Inter";
   font-style: normal;
   font-weight: 700;
-  font-size: 40px;
-  line-height: 48px;
+  font-size: 2.5rem;
+  line-height: 3rem;
   display: flex;
   align-items: center;
   color: #212121;
@@ -417,8 +417,8 @@ h3 {
   font-family: "Inter";
   font-style: normal;
   font-weight: 700;
-  font-size: 24px;
-  line-height: 32px;
+  font-size: 1.5rem;
+  line-height: 2rem;
   display: flex;
   align-items: center;
   color: #1B1F23;
@@ -428,8 +428,8 @@ h4 {
   font-family: "Inter";
   font-style: normal;
   font-weight: 700;
-  font-size: 24px;
-  line-height: 29px;
+  font-size: 1.5rem;
+  line-height: 2rem;
   color: #FFFFFF;
 }
 
@@ -437,8 +437,8 @@ h5 {
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
-  font-size: 20px;
-  line-height: 28px;
+  font-size: 1.25rem;
+  line-height: 1.7rem;
   color: #23262B;
 }
 
@@ -446,8 +446,8 @@ main div p, p {
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
-  font-size: 20px;
-  line-height: 28px;
+  font-size: 1.25rem;
+  line-height: 1.7rem;
   display: flex;
   align-items: center;
   color: #565656;
@@ -457,8 +457,8 @@ main div p, p {
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
+  font-size: 1rem;
+  line-height: 1.25rem;
   display: flex;
   align-items: center;
   color: #70798E;
@@ -519,7 +519,7 @@ h5 {
   align-content: center;
 }
 
-main div, .display-categorias {
+main div, .display-categorias2, .display-categorias {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -575,6 +575,12 @@ footer {
   background-color: #23262B;
   padding: 3rem 10rem 4rem 10rem;
 }
+footer div span {
+  display: none;
+}
+footer div span div {
+  margin-bottom: 2rem;
+}
 footer div div a {
   font-family: "Inter";
   font-style: normal;
@@ -620,13 +626,46 @@ footer div div p {
   flex-wrap: wrap;
 }
 
+.logo-mobile {
+  display: none;
+}
+
+@media (max-width: 1240px) {
+  .display-redes {
+    flex-direction: column;
+  }
+}
+@media (max-width: 890px) {
+  footer div span {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  #empresa-index, #recursos-index,
+#empresa-nosotros, #recursos-nosotros,
+#empresa-servicios, #recursos-servicios,
+#empresa-proyectos, #recursos-proyectos,
+#empresa-empeza, #recursos-empeza {
+    display: none;
+  }
+}
+@media (max-width: 670px) {
+  .logo-mobile {
+    display: block;
+  }
+
+  .logo-footer {
+    display: none;
+  }
+}
 /* TIPOGRAFÍAS */
 h1 {
   font-family: "Inter";
   font-style: normal;
   font-weight: 700;
-  font-size: 60px;
-  line-height: 73px;
+  font-size: 3.5rem;
+  line-height: 4.5rem;
   color: #212121;
 }
 
@@ -634,8 +673,8 @@ h2 {
   font-family: "Inter";
   font-style: normal;
   font-weight: 700;
-  font-size: 40px;
-  line-height: 48px;
+  font-size: 2.5rem;
+  line-height: 3rem;
   display: flex;
   align-items: center;
   color: #212121;
@@ -645,8 +684,8 @@ h3 {
   font-family: "Inter";
   font-style: normal;
   font-weight: 700;
-  font-size: 24px;
-  line-height: 32px;
+  font-size: 1.5rem;
+  line-height: 2rem;
   display: flex;
   align-items: center;
   color: #1B1F23;
@@ -656,8 +695,8 @@ h4 {
   font-family: "Inter";
   font-style: normal;
   font-weight: 700;
-  font-size: 24px;
-  line-height: 29px;
+  font-size: 1.5rem;
+  line-height: 2rem;
   color: #FFFFFF;
 }
 
@@ -665,8 +704,8 @@ h5 {
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
-  font-size: 20px;
-  line-height: 28px;
+  font-size: 1.25rem;
+  line-height: 1.7rem;
   color: #23262B;
 }
 
@@ -674,8 +713,8 @@ main div p, p {
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
-  font-size: 20px;
-  line-height: 28px;
+  font-size: 1.25rem;
+  line-height: 1.7rem;
   display: flex;
   align-items: center;
   color: #565656;
@@ -685,8 +724,8 @@ main div p, p {
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
+  font-size: 1rem;
+  line-height: 1.25rem;
   display: flex;
   align-items: center;
   color: #70798E;
@@ -747,7 +786,7 @@ h5 {
   align-content: center;
 }
 
-main div, .display-categorias {
+main div, .display-categorias, .display-categorias2 {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -869,13 +908,64 @@ aside {
   align-content: center;
 }
 
+.display-index-main-none {
+  display: none;
+}
+
+#menuhamburguesa, #menuhamburguesa-nosotros, #menuhamburguesa-servicios,
+#menuhamburguesa-proyectos, #menuhamburguesa-empeza {
+  display: none;
+}
+
+@media (max-width: 1240px) {
+  .display-index-main-none {
+    display: block;
+  }
+
+  #index-main {
+    display: none;
+  }
+
+  #proyectos, #servicios {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+  }
+}
+@media (max-width: 1080px) {
+  #menuhamburguesa, #menuhamburguesa-nosotros, #menuhamburguesa-servicios,
+#menuhamburguesa-proyectos, #menuhamburguesa-empeza {
+    display: block;
+  }
+
+  #nav-index, #nav-nosotros, #nav-servicios, #nav-proyectos, #nav-empeza {
+    display: none;
+  }
+}
+@media (max-width: 890px) {
+  #main, #faq {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+  }
+
+  main div {
+    margin-bottom: 1.5rem;
+  }
+
+  .desaparecer, #stat1, #stat2 {
+    display: none;
+  }
+}
 /* TIPOGRAFÍAS */
 h1 {
   font-family: "Inter";
   font-style: normal;
   font-weight: 700;
-  font-size: 60px;
-  line-height: 73px;
+  font-size: 3.5rem;
+  line-height: 4.5rem;
   color: #212121;
 }
 
@@ -883,8 +973,8 @@ h2 {
   font-family: "Inter";
   font-style: normal;
   font-weight: 700;
-  font-size: 40px;
-  line-height: 48px;
+  font-size: 2.5rem;
+  line-height: 3rem;
   display: flex;
   align-items: center;
   color: #212121;
@@ -894,8 +984,8 @@ h3 {
   font-family: "Inter";
   font-style: normal;
   font-weight: 700;
-  font-size: 24px;
-  line-height: 32px;
+  font-size: 1.5rem;
+  line-height: 2rem;
   display: flex;
   align-items: center;
   color: #1B1F23;
@@ -905,8 +995,8 @@ h4 {
   font-family: "Inter";
   font-style: normal;
   font-weight: 700;
-  font-size: 24px;
-  line-height: 29px;
+  font-size: 1.5rem;
+  line-height: 2rem;
   color: #FFFFFF;
 }
 
@@ -914,8 +1004,8 @@ h5 {
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
-  font-size: 20px;
-  line-height: 28px;
+  font-size: 1.25rem;
+  line-height: 1.7rem;
   color: #23262B;
 }
 
@@ -923,8 +1013,8 @@ p, main div p {
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
-  font-size: 20px;
-  line-height: 28px;
+  font-size: 1.25rem;
+  line-height: 1.7rem;
   display: flex;
   align-items: center;
   color: #565656;
@@ -934,8 +1024,8 @@ p, main div p {
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
+  font-size: 1rem;
+  line-height: 1.25rem;
   display: flex;
   align-items: center;
   color: #70798E;
@@ -996,7 +1086,7 @@ main div div, .display-row-start {
   align-content: center;
 }
 
-.display-categorias, main div {
+.display-categorias, .display-categorias2, main div {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -1119,6 +1209,38 @@ aside {
   color: #141A26;
 }
 
+.img-mobile {
+  display: none;
+}
+
+@media (max-width: 1240px) {
+  .nosotros-display {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .img-mobile {
+    display: block;
+  }
+
+  .img-escritorio {
+    display: none;
+  }
+
+  #servicios-1, #servicios-2, #testimonios, #proyectos-1, #proyectos-2, #planes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+  }
+
+  .centrar-card {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+}
 * {
   padding: 0;
   margin: 0;

@@ -15,39 +15,42 @@
 
     <header>
     <!-- NAVBAR -->
-          <nav>
-            <img src="./img/LOGO.png" alt="">
+      <nav>
+        <div>
+          <img src="./img/LOGO.png" alt="Logo de la agencia">
+        </div>
 
-            <div>
-              <ul>
-                <li>
-                  <a class="text-link" href="./index.html">Inicio</a>
-                </li>
-                <li>
-                  <a class="text-link" href="./pages/nosotros.html">Nosotros</a>
-                </li>
-                <li>
-                  <a class="text-link" href="./pages/servicios.html">Servicios</a>
-                </li>
-                <li>
-                  <a class="text-link" href="./pages/proyectos.html">Proyectos</a>
-                </li>
-                <li>
-                  <a class="boton-main-2 boton-main-texto" href="#">Contactanos</a>
-                </li>
-                <li>
-                  <a class="boton-main-1 boton-main-texto" href="./pages/empezaahora.html">Empezá ahora</a>
-                </li>
-              </ul>
-            </div>
-
-          </nav>
+        <div>
+          <ul id="nav-index">
+            <li>
+              <a class="text-link" href="./index.html">Inicio</a>
+            </li>
+            <li>
+              <a class="text-link" href="./pages/nosotros.html">Nosotros</a>
+            </li>
+            <li>
+              <a class="text-link" href="./pages/servicios.html">Servicios</a>
+            </li>
+            <li>
+              <a class="text-link" href="./pages/proyectos.html">Proyectos</a>
+            </li>
+            <li>
+              <a class="boton-main-2 boton-main-texto" href="#">Contactanos</a>
+            </li>
+            <li>
+              <a class="boton-main-1 boton-main-texto" href="./pages/empezaahora.html">Empezá ahora</a>
+            </li>
+          </ul>
+          <div>
+            <img id="menuhamburguesa" src="./img/menu-line.png" alt="Menú hamburguesa">
+          </div>
+        </div>
+      </nav>
     </header>
 
 
     <!-- MAIN -->
-
-    <main class="wow animate__animated animate__fadeIn">
+    <main id="main" class="wow animate__animated animate__fadeIn">
 
       <div>
         <h1>Llevá tu marca al siguiente nivel</h1>
@@ -59,13 +62,13 @@
       </div>
 
       <span>
-        <img src="./img/index-main.png" alt="">
+        <img id="index-main" src="./img/index-main.png" alt="Hombre llamando por celular">
+        <img class="display-index-main-none" src="./img/index-main-mobile.png" alt="Hombre llamando por celular">
       </span>
 
     </main>
 
     <!-- ESTADÍSTICAS PROYECTOS -->
-
     <aside class="display-row-between wow animate__animated animate__fadeIn background-section">
 
       <div>
@@ -78,20 +81,20 @@
         <p class="cuerpo-texto">proyectos finalizados con éxito</p>
       </div>
 
-      <div>
+      <div id="stat1">
         <h3>Más de 80</h3>
         <p class="cuerpo-texto">proyectos finalizados con éxito</p>
       </div>
 
-      <div>
+      <div id="stat2">
         <h3>Más de 80</h3>
         <p class="cuerpo-texto">proyectos finalizados con éxito</p>
       </div>
+      
 
     </aside>
 
     <!-- SECCIÓN "SERVICIOS" -->
-
     <section class="wow animate__animated animate__fadeIn">
 
       <div class="display-text">
@@ -99,11 +102,11 @@
         <p class="margen-parrafo">Contamos con las herramientas necesarias para hacerte crecer</p>
       </div>
       
-      <div class="display-row-center">
+      <div id="servicios" class="display-row-center">
 
         <!-- SERVICIO 1 -->
         <div class="box-background alinear-centro">
-          <img class="padding-img" src="./img/index-redes.svg"  alt="...">
+          <img class="padding-img" src="./img/index-redes.svg"  alt="Ilustración Facebook, Instagram y Twitter">
           <div class="padding-box">
             <h3>Redes sociales</h3>
             <p class="cuerpo-texto">Estudiamos a tu audiencia para determinar qué decirles, cuándo y cómo hacerlo.</p>
@@ -111,7 +114,7 @@
         </div>
         <!-- SERVICIO 2 -->
         <div class="box-background alinear-centro">
-          <img class="padding-img" src="./img/index-landing.svg" alt="...">
+          <img class="padding-img" src="./img/index-landing.svg" alt="Ilustración página web">
           <div class="padding-box">
             <h3>Landing page</h3>
             <p class="cuerpo-texto">Creá una experiencia totalmente personalizada y enfocada en cada una de tus campañas.</p>
@@ -119,7 +122,7 @@
         <!-- SERVICIO 3 -->
         </div>
         <div class="box-background alinear-centro">
-          <img class="padding-img" src="./img/index-anuncios.svg" alt="...">
+          <img class="padding-img" src="./img/index-anuncios.svg" alt="Ilustración estadísiticas de publicidad">
           <div class="padding-box">
             <h3 >Anuncios</h3>
             <p class="cuerpo-texto">Llegá a mucha más audiencia y hacé crecer tu marca de una forma más eficiente.</p>
@@ -132,49 +135,48 @@
     </section>
 
     <!-- SECCIÓN "FAQ" -->
-
     <section class="background-section wow animate__animated animate__fadeIn">
 
       <div class="margen-parrafo">
         <h2>¿Necesitás ayuda?</h2>
       </div>
 
-      <div class="display-row-center">
+      <div id="faq" class="display-row-center">
 
         <!-- FAQ 1 -->
         <div>
-          <img src="./img/index-contacto.svg" alt="...">
+          <img src="./img/index-contacto.svg" alt="Ilustración llamada">
           <div>
             <h3>Contactanos</h3>
             <p class="cuerpo-texto">Estudiamos a tu audiencia para determinar qué decirles, cuándo y cómo hacerlo.</p>
           </div>
           <span class="display-row-start margen-span-1">
             <a class="boton-main-texto" href="#">Escribinos</a>
-            <img src="./img/btn-arrow.svg" alt="">
+            <img src="./img/btn-arrow.svg" alt="Flecha hacia la derecha">
           </span>
         </div>
         <!-- FAQ 2 -->
         <div>
-          <img src="./img/index-faq.svg" alt="...">
+          <img src="./img/index-faq.svg" alt="Ilustración formulario de preguntas">
           <div>
             <h3>Preguntas frecuentes</h3>
             <p class="cuerpo-texto">Creá una experiencia totalmente personalizada y enfocada en cada una de tus campañas.</p>
           </div>
           <span class="display-row-start margen-span-1">
             <a class="boton-main-texto" href="#">Más información</a>
-            <img src="./img/btn-arrow.svg" alt="">
+            <img src="./img/btn-arrow.svg" alt="Flecha hacia la derecha">
           </span>
         </div>
         <!-- FAQ 3 -->
         <div>
-          <img src="./img/index-blog.svg" alt="...">
+          <img src="./img/index-blog.svg" alt="Ilustración blog">
           <div>
             <h3>Blog</h3>
             <p class="cuerpo-texto">Estudiamos a tu audiencia para determinar qué decirles, cuándo y cómo hacerlo.</p>
           </div>
           <span class="display-row-start margen-span-1">
             <a class="boton-main-texto" href="#">Saber más</a>
-            <img src="./img/btn-arrow.svg" alt="">
+            <img src="./img/btn-arrow.svg" alt="Flecha hacia la derecha">
           </span>
         </div>
 
@@ -183,39 +185,42 @@
     </section>
        
     <!-- SECCIÓN "PROYECTOS" -->
-
     <section class="wow animate__animated animate__fadeIn">
 
       <div class="display-text">
-        <h2>Buenas razones para contratarnos</h2>
+        <h2 class="titulo-nosotros">Buenas razones para contratarnos</h2>
         <p class="margen-parrafo">Conocé los detalles de nuestros últimos proyectos</p>
       </div>
 
-      <div class="display-row-center">
+      <div id="proyectos" class="display-row-center">
         <!-- PROYECTO 1 -->
         <div class="display-row-center box-background padding-box-1">
-          <img src="./img/index-slider1.png" alt="">
+          <span>
+            <img src="./img/index-slider1.png" alt="Rabbit">
+          </span>
           <div class="display-column-center">
             <h3>Rabbit</h3>
-            <p>Trabajamos junto a Rabbit para optimizar la experiencia de sus clientes corporativos con una nueva plataforma digital</p>
+            <p class="desaparecer">Trabajamos junto a Rabbit para optimizar la experiencia de sus clientes corporativos con una nueva plataforma digital</p>
             <div class="display-row-start">
               <span class="boton-main-1 margen-span-1">
                 <a class="boton-main-texto" href="#">Saber más</a>
-                <img src="./img/btn-arrow.svg" alt="">
+                <img src="./img/btn-arrow.svg" alt="Flecha hacia la derecha">
               </span>
             </div>
           </div>
         </div>
         <!-- PROYECTO 2 -->
         <div class="display-row-center box-background padding-box-1">
-          <img src="./img/index-slider2.png" alt="">
+          <span>
+            <img src="./img/index-slider2.png" alt="Rabbit">
+          </span>
           <div class="display-column-center">
             <h3>Rabbit</h3>
-            <p>Trabajamos junto a Rabbit para optimizar la experiencia de sus clientes corporativos con una nueva plataforma digital</p>
+            <p class="desaparecer">Trabajamos junto a Rabbit para optimizar la experiencia de sus clientes corporativos con una nueva plataforma digital</p>
             <div class="display-row-start">
               <span class="boton-main-1 margen-span-1">
                 <a class="boton-main-texto" href="#">Saber más</a>
-                <img src="./img/btn-arrow.svg" alt="">
+                <img src="./img/btn-arrow.svg" alt="Flecha hacia la derecha">
               </span>
             </div>
           </div>
@@ -226,10 +231,11 @@
     </section>
 
     <!-- SECCIÓN "CONTACTO" -->
-
     <aside class="background-section wow animate__animated animate__fadeIn">
 
-      <h2 class="display-text">Hoy podés empezar a cambiar tu empresa </h2>
+      <div class="display-text">
+        <h2 class="titulo-nosotros">Hoy podés empezar a cambiar tu empresa</h2>
+      </div>
 
       <span class="display-text">
         <a class="boton-main-1 boton-main-texto" href="#">Contactanos</a>
@@ -238,18 +244,18 @@
     </aside>
 
     <!-- FOOTER -->
-
     <footer>
 
       <div>
         <div class="display-footer">
-          <span>
-            <img src="./img/LOGO.png" alt="">
-          </span>
+          <div>
+            <img class="logo-footer" src="./img/LOGO.png" alt="Logo Agencia">
+            <img class="logo-mobile" src="./img/logo-mobile.png" alt="Logo Agencia">
+          </div>
           <p>© 2022 Martín Bruno. All rights reserved </p>
         </div>
 
-        <div class="display-categorias">
+        <div id="empresa-index" class="display-categorias">
           <h4>Empresa</h4>
           <a href="./pages/nosotros.html">Nosotros</a>
           <a href="./pages/servicios.html">Servicios</a>
@@ -257,20 +263,37 @@
           <a href="#">Contactanos</a>
         </div>
 
-        <div class="display-categorias">
+        <div id="recursos-index" class="display-categorias">
           <h4>Recursos</h4>
           <a href="#">Blog</a>
           <a href="#">Preguntas frecuentes</a>
           <a href="#">Política de calidad</a>
         </div>
 
+        <span>
+          <div class="display-categorias2">
+            <h4>Empresa</h4>
+            <a href="./pages/nosotros.html">Nosotros</a>
+            <a href="./pages/servicios.html">Servicios</a>
+            <a href="./pages/proyectos.html">Proyectos</a>
+            <a href="#">Contactanos</a>
+          </div>
+  
+          <div class="display-categorias2">
+            <h4>Recursos</h4>
+            <a href="#">Blog</a>
+            <a href="#">Preguntas frecuentes</a>
+            <a href="#">Política de calidad</a>
+          </div>
+        </span>
+
         <div>
           <ul class="display-redes">
-              <li><a href="#"><img src="./img/facebook.png" alt=""></a></li>
-              <li><a href="#"><img src="./img/twitter.png" alt=""></a></li>
-              <li><a href="#"><img src="./img/linkedin.png" alt=""></a></li>
-              <li><a href="#"><img src="./img/instagram.png" alt=""></a></li>
-              <li><a href="#"><img src="./img/youtube.png" alt=""></a></li>
+              <li><a href="#"><img src="./img/facebook.png" alt="Facebook"></a></li>
+              <li><a href="#"><img src="./img/twitter.png" alt="Twitter"></a></li>
+              <li><a href="#"><img src="./img/linkedin.png" alt="Linkedin"></a></li>
+              <li><a href="#"><img src="./img/instagram.png" alt="Instagram"></a></li>
+              <li><a href="#"><img src="./img/youtube.png" alt="Youtube"></a></li>
           </ul>
         </div>
 

@@ -1,8 +1,7 @@
 @import "../base/extends";
 @import "../base/variables";
 @import "../base/listas";
-@import "../base/maps";
-@import "../base/mixin";
+
 
 /* MAIN */
 
@@ -109,5 +108,58 @@ main {
     flex-direction: column;
     justify-content: center;
     align-content: center;
+}
+
+.display-index-main-none{
+    display: none;
+}
+
+#menuhamburguesa, #menuhamburguesa-nosotros, #menuhamburguesa-servicios, 
+#menuhamburguesa-proyectos, #menuhamburguesa-empeza{
+    display: none;
+}
+
+@media (max-width: 1240px){
+    .display-index-main-none{
+        display: block;
+    }
+    #index-main{
+        display: none;
+    }
+    #proyectos, #servicios {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+    }
+
+}
+
+@media (max-width: 1080px){
+    #menuhamburguesa, #menuhamburguesa-nosotros, #menuhamburguesa-servicios, 
+    #menuhamburguesa-proyectos, #menuhamburguesa-empeza {
+        display: block;
+    }
+
+    #nav-index, #nav-nosotros, #nav-servicios, #nav-proyectos, #nav-empeza{
+        display: none;
+    }
+}
+
+@media (max-width: 890px){
+    #main, #faq {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+    }
+
+    main div {
+        margin-bottom: 1.5rem;
+    }
+
+    .desaparecer, #stat1, #stat2{
+        display: none;
+    }
 }
 

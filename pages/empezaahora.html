@@ -15,33 +15,37 @@
     
     <header>
       <!-- NAVBAR -->
-        <nav>
-          <img src="../img/LOGO.png" alt="">
+      <nav>
+        <div>
+          <img src="../img/LOGO.png" alt="Logo Agencia">
+        </div>
 
+        <div>
+          <ul id="nav-empeza">
+            <li>
+              <a class="text-link" href="../index.html">Inicio</a>
+            </li>
+            <li>
+              <a class="text-link" href="./nosotros.html">Nosotros</a>
+            </li>
+            <li>
+              <a class="text-link" href="./servicios.html">Servicios</a>
+            </li>
+            <li>
+              <a class="text-link" href="./proyectos.html">Proyectos</a>
+            </li>
+            <li>
+              <a class="boton-main-2 boton-main-texto" href="#">Contactanos</a>
+            </li>
+            <li>
+              <a class="boton-main-1 boton-main-texto" href="./empezaahora.html">Empezá ahora</a>
+            </li>
+          </ul>
           <div>
-            <ul>
-              <li>
-                <a class="text-link" href="../index.html">Inicio</a>
-              </li>
-              <li>
-                <a class="text-link" href="./nosotros.html">Nosotros</a>
-              </li>
-              <li>
-                <a class="text-link" href="./servicios.html">Servicios</a>
-              </li>
-              <li>
-                <a class="text-link" href="./proyectos.html">Proyectos</a>
-              </li>
-              <li>
-                <a class="boton-main-2 boton-main-texto" href="#">Contactanos</a>
-              </li>
-              <li>
-                <a class="boton-main-1 boton-main-texto" href="./empezaahora.html">Empezá ahora</a>
-              </li>
-            </ul>
+            <img id="menuhamburguesa-empeza" src="../img/menu-line.png" alt="Menú hamburguesa">
           </div>
-
-        </nav>
+        </div>
+      </nav>
     </header>
 
     <!-- BACKGROUND -->
@@ -56,25 +60,25 @@
       </section>
 
       <!-- PLANES -->
-      <section class="display-row-center">
+      <section id="planes" class="display-row-center">
         <!-- PLAN 1-->
         <div class="background-box">
           <h5 class="text-empezaahora">Estándar</h5>
           <p>Amet minim mollit non deserunt.</p>
           <div class="display-row margin-8">
-              <img class="margin-right" src="../img/check.svg" alt="">
+              <img class="margin-right" src="../img/check.svg" alt="Tick">
               <h4>Lacus pharetra ligula interdum.</h4>
           </div>
           <div class="display-row margin-8">
-              <img class="margin-right" src="../img/check.svg" alt="">
+              <img class="margin-right" src="../img/check.svg" alt="Tick">
               <h4>Imperdiet accumsan libero.</h4>
           </div>
           <div class="display-row margin-8">
-              <img class="margin-right" src="../img/check.svg" alt="">
+              <img class="margin-right" src="../img/check.svg" alt="Tick">
               <h4>A taciti molestie ligula dictumst.</h4>
           </div>
           <div class="display-row margin-24">
-              <img class="margin-right" src="../img/check.svg" alt="">
+              <img class="margin-right" src="../img/check.svg" alt="Tick">
               <h4>Turpis consequat.</h4>
           </div>
           <div>
@@ -87,19 +91,19 @@
           <h5 class="text-empezaahora">Premium</h5>
           <p>Amet minim mollit non deserunt.</p>
           <div class="display-row margin-8">
-              <img class="margin-right" src="../img/check.svg" alt="">
+              <img class="margin-right" src="../img/check.svg" alt="Tick">
               <h4>Lacus pharetra ligula interdum.</h4>
           </div>
           <div class="display-row margin-8">
-              <img class="margin-right" src="../img/check.svg" alt="">
+              <img class="margin-right" src="../img/check.svg" alt="Tick">
               <h4>Imperdiet accumsan libero.</h4>
           </div>
           <div class="display-row margin-8">
-              <img class="margin-right" src="../img/check.svg" alt="">
+              <img class="margin-right" src="../img/check.svg" alt="Tick">
               <h4>A taciti molestie ligula dictumst.</h4>
           </div>
           <div class="display-row margin-24">
-              <img class="margin-right" src="../img/check.svg" alt="">
+              <img class="margin-right" src="../img/check.svg" alt="Tick">
               <h4>Turpis consequat.</h4>
           </div>
           <div>
@@ -112,7 +116,7 @@
       <!-- CONTACTO-->
       <aside class="background-section-2 wow animate__animated animate__fadeIn">
   
-        <h2 class="display-text">Hoy podés empezar a cambiar tu empresa </h2>
+        <h2 class="display-text titulo-nosotros">Hoy podés empezar a cambiar tu empresa </h2>
   
         <span class="display-text">
           <a class="boton-main-1 boton-main-texto" href="#">Contactanos</a>
@@ -125,15 +129,32 @@
     <!-- FOOTER -->
     <footer>
 
-        <div>
-          <div class="display-footer">
-            <span>
-              <img src="../img/LOGO.png" alt="">
-            </span>
-            <p>© 2022 Martín Bruno. All rights reserved </p>
+      <div>
+        <div class="display-footer">
+          <div>
+            <img class="logo-footer" src="../img/LOGO.png" alt="Logo Agencia">
+            <img class="logo-mobile" src="../img/logo-mobile.png" alt="Logo Agencia">
           </div>
-  
-          <div class="display-categorias">
+          <p>© 2022 Martín Bruno. All rights reserved </p>
+        </div>
+
+        <div id="empresa-empeza" class="display-categorias">
+          <h4>Empresa</h4>
+          <a href="./nosotros.html">Nosotros</a>
+          <a href="./servicios.html">Servicios</a>
+          <a href="./proyectos.html">Proyectos</a>
+          <a href="#">Contactanos</a>
+        </div>
+
+        <div id="recursos-empeza" class="display-categorias">
+          <h4>Recursos</h4>
+          <a href="#">Blog</a>
+          <a href="#">Preguntas frecuentes</a>
+          <a href="#">Política de calidad</a>
+        </div>
+
+        <span>
+          <div class="display-categorias2">
             <h4>Empresa</h4>
             <a href="./nosotros.html">Nosotros</a>
             <a href="./servicios.html">Servicios</a>
@@ -141,25 +162,26 @@
             <a href="#">Contactanos</a>
           </div>
   
-          <div class="display-categorias">
+          <div class="display-categorias2">
             <h4>Recursos</h4>
             <a href="#">Blog</a>
             <a href="#">Preguntas frecuentes</a>
             <a href="#">Política de calidad</a>
           </div>
-  
-          <div>
-            <ul class="display-redes">
-                <li><a href="#"><img src="../img/facebook.png" alt=""></a></li>
-                <li><a href="#"><img src="../img/twitter.png" alt=""></a></li>
-                <li><a href="#"><img src="../img/linkedin.png" alt=""></a></li>
-                <li><a href="#"><img src="../img/instagram.png" alt=""></a></li>
-                <li><a href="#"><img src="../img/youtube.png" alt=""></a></li>
-            </ul>
-          </div>
-  
+        </span>
+
+        <div>
+          <ul class="display-redes">
+            <li><a href="#"><img src="../img/facebook.png" alt="Facebook"></a></li>
+            <li><a href="#"><img src="../img/twitter.png" alt="Twitter"></a></li>
+            <li><a href="#"><img src="../img/linkedin.png" alt="Linkedin"></a></li>
+            <li><a href="#"><img src="../img/instagram.png" alt="Instagram"></a></li>
+            <li><a href="#"><img src="../img/youtube.png" alt="Youtube"></a></li>
+          </ul>
         </div>
-  
+
+      </div>
+
     </footer>
 
     <script> src="js/wow.min.js"</script>

@@ -7,6 +7,12 @@ footer{
     padding: 3rem 10rem 4rem 10rem;
     div {
         @extend %row-between;
+        span {
+            display: none;
+            div {
+                margin-bottom: 2rem;
+            }
+        }
         div {
             a {
                 font-family: 'Inter';
@@ -50,6 +56,10 @@ footer{
     @extend %column-start;
 }
 
+.display-categorias2{
+    @extend %column-start;
+}
+
 .display-footer{
     display: flex;
     flex-direction: column;
@@ -64,4 +74,39 @@ footer{
 .p-wrap{
     display: flex;
     flex-wrap: wrap;
+}
+
+.logo-mobile{
+    display: none;
+}
+
+@media (max-width: 1240px){
+    .display-redes{
+        flex-direction: column;
+    }
+
+}
+
+@media (max-width: 890px){
+   footer div span{
+       display: flex;
+       flex-direction: column;
+       justify-content: flex-start;
+   }
+   #empresa-index, #recursos-index, 
+   #empresa-nosotros, #recursos-nosotros, 
+   #empresa-servicios, #recursos-servicios, 
+   #empresa-proyectos, #recursos-proyectos, 
+   #empresa-empeza, #recursos-empeza {
+       display: none;
+   }
+}
+
+@media (max-width: 670px) {
+    .logo-mobile{
+        display: block;
+    }
+    .logo-footer{
+        display: none;
+    }
 }

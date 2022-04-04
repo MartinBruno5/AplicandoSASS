@@ -15,33 +15,37 @@
     
     <header>
       <!-- NAVBAR -->
-        <nav>
-          <img src="../img/LOGO.png" alt="">
+      <nav>
+        <div>
+          <img src="../img/LOGO.png" alt="Logo Agencia">
+        </div>
 
+        <div>
+          <ul id="nav-proyectos">
+            <li>
+              <a class="text-link" href="../index.html">Inicio</a>
+            </li>
+            <li>
+              <a class="text-link" href="./nosotros.html">Nosotros</a>
+            </li>
+            <li>
+              <a class="text-link" href="./servicios.html">Servicios</a>
+            </li>
+            <li>
+              <a class="text-link" href="./proyectos.html">Proyectos</a>
+            </li>
+            <li>
+              <a class="boton-main-2 boton-main-texto" href="#">Contactanos</a>
+            </li>
+            <li>
+              <a class="boton-main-1 boton-main-texto" href="./empezaahora.html">Empezá ahora</a>
+            </li>
+          </ul>
           <div>
-            <ul>
-              <li>
-                <a class="text-link" href="../index.html">Inicio</a>
-              </li>
-              <li>
-                <a class="text-link" href="./nosotros.html">Nosotros</a>
-              </li>
-              <li>
-                <a class="text-link" href="./servicios.html">Servicios</a>
-              </li>
-              <li>
-                <a class="text-link" href="./proyectos.html">Proyectos</a>
-              </li>
-              <li>
-                <a class="boton-main-2 boton-main-texto" href="#">Contactanos</a>
-              </li>
-              <li>
-                <a class="boton-main-1 boton-main-texto" href="./empezaahora.html">Empezá ahora</a>
-              </li>
-            </ul>
+            <img id="menuhamburguesa-proyectos" src="../img/menu-line.png" alt="Menú hamburguesa">
           </div>
-
-        </nav>
+        </div>
+      </nav>
     </header>
 
     <!-- MAIN -->
@@ -53,29 +57,41 @@
     </section>
 
     <!-- CLIENTES -->
-    <section class="background-section display-row-center wow animate__animated animate__fadeIn">
+    <section id="testimonios" class="background-section display-row-center wow animate__animated animate__fadeIn">
       <!-- TESTIMONIO 1 -->
       <div>
-        <img class="shadow-img margen-parrafo" src="../img/proyectos-1.png" alt="">
-        <p class="margen-parrafo">“Hemos pasado de 5000 a más de 1 millón de usuarios en poco tiempo y, además, automatizamos todos los mensajes que enviamos a los usuarios”.</p>
-        <h5>Carlos González</h5>
-        <h4 class="text-black">Opacity Argentina</h4>
+        <div>
+          <img class="img-escritorio" src="../img/proyectos-1.png" alt="Hombre">
+          <img class="img-mobile centrar-card" src="../img/proyectos-1-mobile.png" alt="Hombre">
+        </div>
+
+        <p class="margen-parrafo centrar-card">“Hemos pasado de 5000 a más de 1 millón de usuarios en poco tiempo y, además, automatizamos todos los mensajes que enviamos a los usuarios”.</p>
+        <h5 class="centrar-card">Carlos González</h5>
+        <h4 class="text-black centrar-card">Opacity Argentina</h4>
       </div>
 
       <!-- TESTIMONIO 2 -->
       <div>
-        <img class="shadow-img margen-parrafo" src="../img/proyectos-2.png" alt="">
-        <p class="margen-parrafo">“Nos está siendo de gran ayuda para crear nuestros emails transaccionales. Lo que más nos llamó la atención fue la calidad del producto”.</p>
-        <h5>Julieta Calvo</h5>
-        <h4 class="text-black">Rabbit</h4>
+        <div>
+          <img class="img-escritorio" src="../img/proyectos-2.png" alt="Mujer">
+          <img class="img-mobile centrar-card" src="../img/proyectos-2-mobile.png" alt="Mujer">
+        </div>
+
+        <p class="margen-parrafo centrar-card">“Nos está siendo de gran ayuda para crear nuestros emails transaccionales. Lo que más nos llamó la atención fue la calidad del producto”.</p>
+        <h5 class="centrar-card">Julieta Calvo</h5>
+        <h4 class="text-black centrar-card">Rabbit</h4>
       </div>
 
       <!-- TESTIMONIO 3 -->
       <div>
-        <img class="shadow-img margen-parrafo" src="../img/proyectos-3.png" alt="">
-        <p class="margen-parrafo">“Llevo muchos años recomendandolos el  a mis clientes para desarrollar su negocio. El equipo de soporte responde siempre a tiempo cuando necesitas ayuda”.</p>
-        <h5>Martín Protti</h5>
-        <h4 class="text-black">STP</h4>
+        <div>
+          <img class="img-escritorio" src="../img/proyectos-3.png" alt="Hombre">
+          <img class="img-mobile centrar-card" src="../img/proyectos-3-mobile.png" alt="Hombre">
+        </div>
+
+        <p class="margen-parrafo centrar-card">“Llevo muchos años recomendandolos el  a mis clientes para desarrollar su negocio. El equipo de soporte responde siempre a tiempo cuando necesitas ayuda”.</p>
+        <h5 class="centrar-card">Martín Protti</h5>
+        <h4 class="text-black centrar-card">STP</h4>
       </div>
 
     </section>
@@ -84,21 +100,21 @@
     <section class="wow animate__animated animate__fadeIn">
 
       <div class="display-text">
-        <h2>Buenas razones para contratarnos</h2>
-        <p class="margen-parrafo">Conocé los detalles de nuestros últimos proyectos</p>
+        <h2 class="titulo-nosotros">Buenas razones para contratarnos</h2>
+        <p class="margen-parrafo titulo-nosotros">Conocé los detalles de nuestros últimos proyectos</p>
       </div>
 
-      <div class="display-row-center margen-parrafo">
+      <div id="proyectos-1" class="display-row-center margen-parrafo">
         <!-- PROYECTO 1 -->
         <div class="display-row-center box-background padding-box-1">
-          <img src="../img/index-slider1.png" alt="">
+          <img src="../img/index-slider1.png" alt="Rabbit">
           <div class="display-column-center">
             <h3>Rabbit</h3>
-            <p>Trabajamos junto a Rabbit para optimizar la experiencia de sus clientes corporativos con una nueva plataforma digital</p>
+            <p class="desaparecer">Trabajamos junto a Rabbit para optimizar la experiencia de sus clientes corporativos con una nueva plataforma digital</p>
             <div class="display-row-start">
               <span class="boton-main-1 margen-span-1">
                 <a class="boton-main-texto" href="#">Saber más</a>
-                <img src="../img/btn-arrow.svg" alt="">
+                <img src="../img/btn-arrow.svg" alt="Flecha hacia la derecha">
               </span>
             </div>
           </div>
@@ -106,14 +122,14 @@
 
         <!-- PROYECTO 2 -->
         <div class="display-row-center box-background padding-box-1">
-          <img src="../img/index-slider2.png" alt="">
+          <img src="../img/index-slider2.png" alt="Rabbit">
           <div class="display-column-center">
             <h3>Rabbit</h3>
-            <p>Trabajamos junto a Rabbit para optimizar la experiencia de sus clientes corporativos con una nueva plataforma digital</p>
+            <p class="desaparecer">Trabajamos junto a Rabbit para optimizar la experiencia de sus clientes corporativos con una nueva plataforma digital</p>
             <div class="display-row-start">
               <span class="boton-main-1 margen-span-1">
                 <a class="boton-main-texto" href="#">Saber más</a>
-                <img src="../img/btn-arrow.svg" alt="">
+                <img src="../img/btn-arrow.svg" alt="Flecha hacia la derecha">
               </span>
             </div>
           </div>
@@ -121,18 +137,18 @@
 
       </div>
 
-      <div class="display-row-center">
+      <div id="proyectos-2" class="display-row-center">
 
         <!-- PROYECTO 3 -->
         <div class="display-row-center box-background padding-box-1">
-          <img src="../img/index-slider1.png" alt="">
+          <img src="../img/index-slider1.png" alt="Rabbit">
           <div class="display-column-center">
             <h3>Rabbit</h3>
-            <p>Trabajamos junto a Rabbit para optimizar la experiencia de sus clientes corporativos con una nueva plataforma digital</p>
+            <p class="desaparecer">Trabajamos junto a Rabbit para optimizar la experiencia de sus clientes corporativos con una nueva plataforma digital</p>
             <div class="display-row-start">
               <span class="boton-main-1 margen-span-1">
                 <a class="boton-main-texto" href="#">Saber más</a>
-                <img src="../img/btn-arrow.svg" alt="">
+                <img src="../img/btn-arrow.svg" alt="Flecha hacia la derecha">
               </span>
             </div>
           </div>
@@ -140,14 +156,14 @@
 
         <!-- PROYECTO 4 -->
         <div class="display-row-center box-background padding-box-1">
-          <img src="../img/index-slider2.png" alt="">
+          <img src="../img/index-slider2.png" alt="Rabbit">
           <div class="display-column-center">
             <h3>Rabbit</h3>
-            <p>Trabajamos junto a Rabbit para optimizar la experiencia de sus clientes corporativos con una nueva plataforma digital</p>
+            <p class="desaparecer">Trabajamos junto a Rabbit para optimizar la experiencia de sus clientes corporativos con una nueva plataforma digital</p>
             <div class="display-row-start">
               <span class="boton-main-1 margen-span-1">
                 <a class="boton-main-texto" href="#">Saber más</a>
-                <img src="../img/btn-arrow.svg" alt="">
+                <img src="../img/btn-arrow.svg" alt="Flecha hacia la derecha">
               </span>
             </div>
           </div>
@@ -160,7 +176,7 @@
     <!-- CONTACTO -->
     <aside class="background-section wow animate__animated animate__fadeIn">
 
-      <h2 class="display-text">Hoy podés empezar a cambiar tu empresa </h2>
+      <h2 class="display-text titulo-nosotros">Hoy podés empezar a cambiar tu empresa </h2>
 
       <span class="display-text">
         <a class="boton-main-1 boton-main-texto" href="#">Contactanos</a>
@@ -171,15 +187,32 @@
     <!-- FOOTER -->
     <footer>
 
-        <div>
-          <div class="display-footer">
-            <span>
-              <img src="../img/LOGO.png" alt="">
-            </span>
-            <p>© 2022 Martín Bruno. All rights reserved </p>
+      <div>
+        <div class="display-footer">
+          <div>
+            <img class="logo-footer" src="../img/LOGO.png" alt="Logo Agencia">
+            <img class="logo-mobile" src="../img/logo-mobile.png" alt="Logo Agencia">
           </div>
-  
-          <div class="display-categorias">
+          <p>© 2022 Martín Bruno. All rights reserved </p>
+        </div>
+
+        <div id="empresa-proyectos" class="display-categorias">
+          <h4>Empresa</h4>
+          <a href="./nosotros.html">Nosotros</a>
+          <a href="./servicios.html">Servicios</a>
+          <a href="./proyectos.html">Proyectos</a>
+          <a href="#">Contactanos</a>
+        </div>
+
+        <div id="recursos-proyectos" class="display-categorias">
+          <h4>Recursos</h4>
+          <a href="#">Blog</a>
+          <a href="#">Preguntas frecuentes</a>
+          <a href="#">Política de calidad</a>
+        </div>
+
+        <span>
+          <div class="display-categorias2">
             <h4>Empresa</h4>
             <a href="./nosotros.html">Nosotros</a>
             <a href="./servicios.html">Servicios</a>
@@ -187,25 +220,26 @@
             <a href="#">Contactanos</a>
           </div>
   
-          <div class="display-categorias">
+          <div class="display-categorias2">
             <h4>Recursos</h4>
             <a href="#">Blog</a>
             <a href="#">Preguntas frecuentes</a>
             <a href="#">Política de calidad</a>
           </div>
-  
-          <div>
-            <ul class="display-redes">
-                <li><a href="#"><img src="../img/facebook.png" alt=""></a></li>
-                <li><a href="#"><img src="../img/twitter.png" alt=""></a></li>
-                <li><a href="#"><img src="../img/linkedin.png" alt=""></a></li>
-                <li><a href="#"><img src="../img/instagram.png" alt=""></a></li>
-                <li><a href="#"><img src="../img/youtube.png" alt=""></a></li>
-            </ul>
-          </div>
-  
+        </span>
+
+        <div>
+          <ul class="display-redes">
+            <li><a href="#"><img src="../img/facebook.png" alt="Facebook"></a></li>
+            <li><a href="#"><img src="../img/twitter.png" alt="Twitter"></a></li>
+            <li><a href="#"><img src="../img/linkedin.png" alt="Linkedin"></a></li>
+            <li><a href="#"><img src="../img/instagram.png" alt="Instagram"></a></li>
+            <li><a href="#"><img src="../img/youtube.png" alt="Youtube"></a></li>
+          </ul>
         </div>
-  
+
+      </div>
+
     </footer>
 
     <script> src="js/wow.min.js"</script>

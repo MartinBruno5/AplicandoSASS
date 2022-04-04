@@ -1,8 +1,7 @@
 @import "../base/extends";
 @import "../base/variables";
 @import "../base/listas";
-@import "../base/maps";
-@import "../base/mixin";
+
 
 /* MAIN */
 
@@ -84,4 +83,46 @@
     text-decoration: none;
 
     color: #141A26;
+}
+
+.img-mobile{
+    display: none;
+}
+
+@media (max-width: 1240px){
+   .nosotros-display{
+       display: flex;
+       flex-direction: column;
+       gap: 2rem;
+   } 
+
+   .img-mobile{
+       display: block;
+   }
+   .img-escritorio{
+       display: none;
+   }
+
+   #servicios-1, #servicios-2, #testimonios, #proyectos-1, #proyectos-2, #planes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    }
+
+    .centrar-card{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+
+    }
+
+}
+
+@media (max-width: 1080px){
+    
+}
+
+@media (max-width: 890px){
+    
 }
