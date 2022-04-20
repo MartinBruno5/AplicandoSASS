@@ -3,7 +3,7 @@
 @import "../base/listas";
 
 header {
-    background-color: $color-black;
+    background-color: nth($color-black, 1);
     padding: 4rem 10rem 2rem 10rem;
     nav {
         @extend %row-between;
@@ -39,3 +39,15 @@ header {
 .text-link:hover{
     color: nth($color-neutro, 3);
 }
+
+@media (max-width: 1080px){
+    #menuhamburguesa, #menuhamburguesa-nosotros, #menuhamburguesa-servicios, 
+    #menuhamburguesa-proyectos, #menuhamburguesa-empeza {
+        display: block;
+    }
+
+    #nav-index, #nav-nosotros, #nav-servicios, #nav-proyectos, #nav-empeza{
+        display: none;
+    }
+}
+    

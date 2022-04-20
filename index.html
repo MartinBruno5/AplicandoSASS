@@ -35,9 +35,6 @@
               <a class="text-link" href="./pages/proyectos.html">Proyectos</a>
             </li>
             <li>
-              <a class="boton-main-2 boton-main-texto" href="#">Contactanos</a>
-            </li>
-            <li>
               <a class="boton-main-1 boton-main-texto" href="./pages/empezaahora.html">Empezá ahora</a>
             </li>
           </ul>
@@ -54,43 +51,36 @@
 
       <div>
         <h1>Llevá tu marca al siguiente nivel</h1>
-        <p>Desatá tu potencial. Impulsá tu negocio con una solución de marketing y ventas todo en uno, ¡todo lo que necesitas para crecer, convertir y vender!</p>
+        <p class="parrafo-claro">Desatá tu potencial. Impulsá tu negocio con una solución de marketing y ventas todo en uno, ¡todo lo que necesitas para crecer, convertir y vender!</p>
         <div>
           <a class="boton-main-1 boton-main-texto" href="#">Empezá ahora</a>
-          <a class="boton-main-2 boton-main-texto" href="#">Conocé más</a>
+          <a class="boton-main-2 boton-main-texto-2" href="#">Conocé más</a>
         </div>
       </div>
 
       <span>
-        <img id="index-main" src="./img/index-main.png" alt="Hombre llamando por celular">
-        <img class="display-index-main-none" src="./img/index-main-mobile.png" alt="Hombre llamando por celular">
+        <img src="./img/index-main.png" alt="Animación persona usando una laptop">
       </span>
 
     </main>
 
     <!-- ESTADÍSTICAS PROYECTOS -->
-    <aside class="display-row-between wow animate__animated animate__fadeIn background-section">
+    <aside id="stats" class="display-row-between wow animate__animated animate__fadeIn background-section">
 
       <div>
-        <h3>Más de 80</h3>
-        <p class="cuerpo-texto">proyectos finalizados con éxito</p>
+        <h2>Más de 80</h2>
+        <p>proyectos finalizados con éxito</p>
       </div>
 
       <div>
-        <h3>Más de 80</h3>
-        <p class="cuerpo-texto">proyectos finalizados con éxito</p>
+        <h2>100 mil</h2>
+        <p>ventas concretadas y contando</p>
       </div>
 
-      <div id="stat1">
-        <h3>Más de 80</h3>
-        <p class="cuerpo-texto">proyectos finalizados con éxito</p>
+      <div>
+        <h2>1 millón</h2>
+        <p>de usuarios han sido alcanzados</p>
       </div>
-
-      <div id="stat2">
-        <h3>Más de 80</h3>
-        <p class="cuerpo-texto">proyectos finalizados con éxito</p>
-      </div>
-      
 
     </aside>
 
@@ -98,85 +88,92 @@
     <section class="wow animate__animated animate__fadeIn">
 
       <div class="display-text">
-        <h2>Tomá el control de tu negocio</h2>
-        <p class="margen-parrafo">Contamos con las herramientas necesarias para hacerte crecer</p>
+        <h2 class="titulo-nosotros">Tomá el control de tu negocio</h2>
+        <p class="titulo-nosotros margen-parrafo">Contamos con las herramientas necesarias para hacerte crecer</p>
       </div>
       
-      <div id="servicios" class="display-row-center">
+      <div id="servicios" class="display-row-center margin-64">
 
         <!-- SERVICIO 1 -->
-        <div class="box-background alinear-centro">
-          <img class="padding-img" src="./img/index-redes.svg"  alt="Ilustración Facebook, Instagram y Twitter">
-          <div class="padding-box">
+        <div class="box-servicios alinear-centro">
+          <span>
+            <img src="./img/index-redes.png"  alt="Icono like">
+          </span>
+          <div>
             <h3>Redes sociales</h3>
-            <p class="cuerpo-texto">Estudiamos a tu audiencia para determinar qué decirles, cuándo y cómo hacerlo.</p>
+            <p>Estudiamos a tu audiencia para determinar qué decirles, cuándo y cómo hacerlo.</p>
           </div>
         </div>
         <!-- SERVICIO 2 -->
-        <div class="box-background alinear-centro">
-          <img class="padding-img" src="./img/index-landing.svg" alt="Ilustración página web">
-          <div class="padding-box">
+        <div class="box-servicios alinear-centro">
+          <span>
+            <img src="./img/index-landing.png" alt="Icono Landing page">
+          </span>
+          <div>
             <h3>Landing page</h3>
-            <p class="cuerpo-texto">Creá una experiencia totalmente personalizada y enfocada en cada una de tus campañas.</p>
+            <p>Creá una experiencia totalmente personalizada y enfocada en cada una de tus campañas.</p>
           </div>
         <!-- SERVICIO 3 -->
         </div>
-        <div class="box-background alinear-centro">
-          <img class="padding-img" src="./img/index-anuncios.svg" alt="Ilustración estadísiticas de publicidad">
-          <div class="padding-box">
+        <div class="box-servicios alinear-centro">
+          <span>
+            <img src="./img/index-anuncios.png" alt="Icono anuncios">
+          </span>
+          <div>
             <h3 >Anuncios</h3>
-            <p class="cuerpo-texto">Llegá a mucha más audiencia y hacé crecer tu marca de una forma más eficiente.</p>
+            <p>Llegá a mucha más audiencia y hacé crecer tu marca de una forma más eficiente.</p>
           </div>
 
         </div>
 
       </div>
+
+      <span class="display-text">
+        <a class="boton-main-1 boton-main-texto" href="./pages/servicios.html">Ver todos los servicios</a>
+      </span>
 
     </section>
 
     <!-- SECCIÓN "FAQ" -->
     <section class="background-section wow animate__animated animate__fadeIn">
 
-      <div class="margen-parrafo">
+      <div id="ayuda" class="margen-parrafo">
         <h2>¿Necesitás ayuda?</h2>
       </div>
 
       <div id="faq" class="display-row-center">
 
         <!-- FAQ 1 -->
-        <div>
-          <img src="./img/index-contacto.svg" alt="Ilustración llamada">
+        <div class="box-faq">
           <div>
             <h3>Contactanos</h3>
-            <p class="cuerpo-texto">Estudiamos a tu audiencia para determinar qué decirles, cuándo y cómo hacerlo.</p>
+            <p>Encontrá asistencia de forma ininterrumpida por parte de nuestro equipo.</p>
           </div>
-          <span class="display-row-start margen-span-1">
-            <a class="boton-main-texto" href="#">Escribinos</a>
-            <img src="./img/btn-arrow.svg" alt="Flecha hacia la derecha">
+          <span class="display-row-start">
+            <a class="boton-main-texto-3" href="#">Escribinos</a>
+            <img src="./img/btn-arrow-2.svg" alt="Flecha hacia la derecha">
           </span>
         </div>
         <!-- FAQ 2 -->
-        <div>
-          <img src="./img/index-faq.svg" alt="Ilustración formulario de preguntas">
+        <div class="box-faq">
           <div>
             <h3>Preguntas frecuentes</h3>
-            <p class="cuerpo-texto">Creá una experiencia totalmente personalizada y enfocada en cada una de tus campañas.</p>
+            <p>Consulta las preguntas frecuentes para obtener información precisa.</p>
           </div>
-          <span class="display-row-start margen-span-1">
-            <a class="boton-main-texto" href="#">Más información</a>
-            <img src="./img/btn-arrow.svg" alt="Flecha hacia la derecha">
+          <span class="display-row-start">
+            <a class="boton-main-texto-3" href="#">Más información</a>
+            <img src="./img/btn-arrow-2.svg" alt="Flecha hacia la derecha">
           </span>
         </div>
         <!-- FAQ 3 -->
-        <div>
-          <img src="./img/index-blog.svg" alt="Ilustración blog">
+        <div class="box-faq">
           <div>
             <h3>Blog</h3>
-            <p class="cuerpo-texto">Estudiamos a tu audiencia para determinar qué decirles, cuándo y cómo hacerlo.</p>
+            <p>Mantenete al día con las últimas historias y noticias de la agencia.</p>
           </div>
-          <span class="display-row-start margen-span-1">
-            <a class="boton-main-texto" href="#">Saber más</a>
-            <img src="./img/btn-arrow.svg" alt="Flecha hacia la derecha">
+          <span class="display-row-start">
+            <a class="boton-main-texto-3" href="#">Saber más</a>
+            <img src="./img/btn-arrow-2.svg" alt="Flecha hacia la derecha">
           </span>
         </div>
 
@@ -194,31 +191,71 @@
 
       <div id="proyectos" class="display-row-center">
         <!-- PROYECTO 1 -->
-        <div class="display-row-center box-background padding-box-1">
+        <div class="box-proyectos">
           <span>
             <img src="./img/index-slider1.png" alt="Rabbit">
           </span>
           <div class="display-column-center">
-            <h3>Rabbit</h3>
-            <p class="desaparecer">Trabajamos junto a Rabbit para optimizar la experiencia de sus clientes corporativos con una nueva plataforma digital</p>
+            <h3>Orange</h3>
+            <p>Optimizamos la experiencia de sus clientes corporativos con una nueva plataforma digital.</p>
             <div class="display-row-start">
-              <span class="boton-main-1 margen-span-1">
+              <span class="boton-main-1">
                 <a class="boton-main-texto" href="#">Saber más</a>
                 <img src="./img/btn-arrow.svg" alt="Flecha hacia la derecha">
               </span>
             </div>
           </div>
         </div>
+
         <!-- PROYECTO 2 -->
-        <div class="display-row-center box-background padding-box-1">
+        <div class="box-proyectos">
           <span>
             <img src="./img/index-slider2.png" alt="Rabbit">
           </span>
           <div class="display-column-center">
-            <h3>Rabbit</h3>
-            <p class="desaparecer">Trabajamos junto a Rabbit para optimizar la experiencia de sus clientes corporativos con una nueva plataforma digital</p>
+            <h3>STP</h3>
+            <p>Hacemos posible la experiencia de transmisión en vivo y contenido on-demand.</p>
             <div class="display-row-start">
-              <span class="boton-main-1 margen-span-1">
+              <span class="boton-main-1">
+                <a class="boton-main-texto" href="#">Saber más</a>
+                <img src="./img/btn-arrow.svg" alt="Flecha hacia la derecha">
+              </span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- SECCIÓN "PROYECTOS" MOBILE -->
+      <div id="proyectos-mobile">
+
+        <div class="box-proyectos-mobile">
+          <span>
+            <img src="./img/index-slider1-mobile.png" alt="Mujer">
+          </span>
+  
+          <div>
+            <h3>STP</h3>
+            <p>Hacemos posible la experiencia de transmisión en vivo y contenido on-demand.</p>
+            <div class="display-row-start">
+              <span class="boton-main-1">
+                <a class="boton-main-texto" href="#">Saber más</a>
+                <img src="./img/btn-arrow.svg" alt="Flecha hacia la derecha">
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <div class="box-proyectos-mobile">
+          <span>
+            <img src="./img/index-slider2-mobile.png" alt="Mujer">
+          </span>
+  
+          <div>
+            <h3>STP</h3>
+            <p>Hacemos posible la experiencia de transmisión en vivo y contenido on-demand.</p>
+            <div class="display-row-start">
+              <span class="boton-main-1">
                 <a class="boton-main-texto" href="#">Saber más</a>
                 <img src="./img/btn-arrow.svg" alt="Flecha hacia la derecha">
               </span>
@@ -229,6 +266,7 @@
       </div>
 
     </section>
+
 
     <!-- SECCIÓN "CONTACTO" -->
     <aside class="background-section wow animate__animated animate__fadeIn">
@@ -247,6 +285,7 @@
     <footer>
 
       <div>
+        
         <div class="display-footer">
           <div>
             <img class="logo-footer" src="./img/LOGO.png" alt="Logo Agencia">

@@ -1,5 +1,5 @@
 /* TIPOGRAFÍAS */
-
+@import "../base/listas";
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 %headline-1{
@@ -46,17 +46,16 @@
     font-size: 1.5rem;
     line-height: 2rem;
 
-    color: #FFFFFF;
+    color: #212121;
 }
 
 %headline-5{
     font-family: 'Inter';
     font-style: normal;
-    font-weight: 500;
-    font-size: 1.25rem;
-    line-height: 1.7rem;
-
-    color: #23262B;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 28px;
+    color: #2C3246;
 }
 
 %cuerpo-1{
@@ -69,7 +68,7 @@
     display: flex;
     align-items: center;
 
-    color: #565656;
+    color: nth($color-black, 2);
 }
 
 %cuerpo-2{
@@ -82,13 +81,14 @@
     display: flex;
     align-items: center;
 
-    color: #70798E;
+    color: #D4D4D4;
 }
 
 h1 {
     @extend %headline-1;
     margin-bottom: 1rem;
 }
+
 
 h2 {
     @extend %headline-2;
@@ -111,6 +111,20 @@ p {
 h5{
     @extend %headline-5;
     margin-bottom: 0.5rem;
+}
+
+
+
+/* TIPOGRAFÍA TABLET */
+
+@media (max-width: 1240px){
+    h1 {
+        font-size: 3rem;
+    }
+    h2 {
+        font-size: 2rem;
+    }
+
 }
 
 /* ELEVATION */
@@ -201,6 +215,20 @@ aside {
     margin-bottom: 3rem;
 }
 
+/* SPACING TABLET */
+
+@media (max-width: 1240px){
+    section, main {
+        padding: 6rem 5rem;
+    }
+    aside {
+        padding: 4rem 5rem;
+    }
+
+}
+
+
+
 /* BOTONES */
 
 %boton-primary{
@@ -209,7 +237,7 @@ aside {
     align-items: center;
     padding: 10px 12px;
 
-    background-color: #E6E67D;
+    background-color: #50A8EA;
     border-radius: 4px;
 
     @extend %shadow-1;  
@@ -237,5 +265,37 @@ aside {
 
     text-decoration: none;
 
-    color: #141A26;
+    color: #FFFFFF;
+}
+
+%text-button-secundary{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    text-decoration: none;
+
+    color: #212121;
+}
+
+%text-button-tertiary{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    text-decoration: none;
+
+    color: nth($color-primario, 3);
 }

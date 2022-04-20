@@ -7,17 +7,33 @@
 
 main {
     @extend %row-between;
+    background-color: nth($color-black, 1);
     div {
         @extend %column-start;
+        width: 50%;
         p{
             @extend %cuerpo-1;
+            margin-bottom: 2rem;
         }
         div {
             @extend %row-start;
+            a{
+                margin-right: 1rem;
+            }
             
+        }
+        h1 {
+            color: #ffffff;
         }
     }
 }
+
+.parrafo-claro{
+    color: #D4D4D4;
+}
+
+
+/* BOTONES */
 
 .boton-main-1{
     @extend %boton-primary;
@@ -36,8 +52,14 @@ main {
 .boton-main-texto{
     @extend %text-button;
 }
+.boton-main-texto-2{
+    @extend %text-button-secundary;
+}
+.boton-main-texto-3{
+    @extend %text-button-tertiary;
+}
 
-/* SECTION 1 */
+/* FLEX */ 
 
 .display-row-center{
     @extend %row-center;
@@ -47,57 +69,12 @@ main {
     @extend %row-between;
     gap: 2rem
 }
-.cuerpo-texto{
-    @extend %cuerpo-2;
-}
-
-.background-section{
-    background-color: nth($color-neutro, 2);
-}
-
-.background-section-2{
-    background-color: white;
-}
-
-.margen-parrafo{
-    @extend %margin-bottom-32;
-}
-
-.margen-span-1{
-    margin-top: 1rem;
-}
-
-/* SECTION 2 */
-
-.alinear-centro{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
-}
-
-.box-background{
-    background-color: nth($color-neutro, 1);
-    border-radius: 1rem;
-}
-.padding-box{
-    padding: 3rem;
-}
-.padding-box-1{
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
-}
-.padding-img{
-    padding: 1rem;
-}
 
 .display-text{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-
-/* SECTION 3 */
 
 .display-row-start{
     @extend %row-start;
@@ -114,52 +91,181 @@ main {
     display: none;
 }
 
+
+/* ESTADÍISTICAS PROYECTOS */
+
+
+.background-section{
+    background-color: nth($color-neutro, 1);
+}
+
+.background-section-2{
+    background-color: white;
+}
+
+.margen-parrafo{
+    @extend %margin-bottom-32;
+}
+
+/* SECCIÓN SERVICIOS */
+
+.box-servicios{
+    background-color: nth($color-neutro, 1);
+    border-radius: 1rem;
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    span img {
+        padding-left: 3rem;
+        padding-top: 3rem;
+    }
+    div {
+        padding: 1rem 3rem 3rem 3rem;
+        p {
+            font-size: 16px;
+        }
+    }
+}
+
+.margin-64{
+    margin-bottom: 4rem;
+}
+
+/* SECCIÓN FAQ */
+
+.box-faq{
+    width: 33% ;
+    div h3 {
+        margin-bottom: 0.5rem;
+    }
+    span {
+        margin-top: 1rem;
+        a {
+            margin-right: 0.5rem;
+        }
+    }
+}
+
+
+/* SECCIÓN PROYECTOS */
+
+.box-proyectos{
+    display: flex;
+    flex-direction: row;
+    background-color: nth($color-neutro, 1);
+    border-radius: 16px;
+    height: 256px;
+    width: 50% ;
+    span {
+        margin-right: 2rem;
+    }
+    div {
+        padding-right: 2rem;
+        span a {
+            margin-right: 0.5rem;
+        }
+        p {
+            margin-bottom: 1rem;
+        }
+    }
+}
+
+.box-proyectos-mobile{
+    background-color: nth($color-neutro, 1);
+    width: 331px;
+    border-radius: 16px;
+    @extend %shadow-1;
+    margin-bottom: 4rem;
+    div {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 2rem;
+        p{
+            margin-bottom: 1.5rem;
+        }
+        div {
+            display: flex;
+            justify-items: flex-start;
+        }
+    }
+}
+
+#proyectos-mobile{
+    display: none;
+}
+
+
+/* RESPONSIVE */
+
 #menuhamburguesa, #menuhamburguesa-nosotros, #menuhamburguesa-servicios, 
 #menuhamburguesa-proyectos, #menuhamburguesa-empeza{
     display: none;
+}
+
+@media (max-width: 1440px){
+    #proyectos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .box-proyectos{
+        width: 75% ;
+    }
 }
 
 @media (max-width: 1240px){
     .display-index-main-none{
         display: block;
     }
-    #index-main{
-        display: none;
-    }
-    #proyectos, #servicios {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-content: center;
-    }
 
 }
 
 @media (max-width: 1080px){
-    #menuhamburguesa, #menuhamburguesa-nosotros, #menuhamburguesa-servicios, 
-    #menuhamburguesa-proyectos, #menuhamburguesa-empeza {
-        display: block;
+
+    #proyectos, #servicios {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
-    #nav-index, #nav-nosotros, #nav-servicios, #nav-proyectos, #nav-empeza{
-        display: none;
+    .box-servicios, .box-faq {
+        width: 50%;
+        margin-bottom: 1rem;
     }
 }
 
 @media (max-width: 890px){
-    #main, #faq {
+    #main, #faq, #stats {
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-content: center;
+        align-items: center;
     }
 
     main div {
         margin-bottom: 1.5rem;
     }
 
-    .desaparecer, #stat1, #stat2{
+    #proyectos{
         display: none;
     }
+
+    .box-servicios, .box-faq{
+        width: 66%;
+        margin-bottom: 1rem;
+    }
+    #ayuda{
+        display: flex;
+        justify-content: center;
+    }
+
+    #proyectos-mobile{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
 }
 
